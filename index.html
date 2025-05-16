@@ -11,27 +11,41 @@
     <title>Verbes irréguliers</title>
 </head>
 <body>
-   <header role="banner" aria-label="En-tête principal">
-    <nav role="navigation" aria-label="Navigation principale">
-        <img src="assets/images/english_flag.webp" alt="Logo" class="logo">
-        <div class="nav-header">
-            <button class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
-                ☰
-            </button>
-            <h2 class="nav-title">Mon Site</h2>
+    <div class="main-container">
+        <header role="banner" aria-label="En-tête principal">
+            <nav role="navigation" aria-label="Navigation principale">
+                <img src="assets/images/english_flag.webp" alt="Logo" class="logo">
+                <div class="nav-header">
+                    <button class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+                        ☰
+                    </button>
+                    <h2 class="nav-title">Mon Site</h2>
+                </div>
+                <ul id="menu">
+                    <li><a href="index.html" aria-current="page">Accueil</a></li>
+                    <li><a href="exercice.html">Exercices</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="inscription.html">Inscription</a></li>
+                    <li><a href="Connection.html">connection</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner" role="region" aria-label="Bannière de bienvenue">
+            <h1>Welcome !</h1>
         </div>
-        <ul id="menu">
-            <li><a href="index.html" aria-current="page">Accueil</a></li>
-            <li><a href="exercice.html">Exercices</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="inscription.html">Inscription</a></li>
-            <li><a href="Connection.html">connection</a></li>
-        </ul>
-    </nav>
-</header>
-    <div class="banner" role="region" aria-label="Bannière de bienvenue">
-        <h1>Welcome !</h1>
     </div>
+    <footer role="contentinfo" aria-label="Pied de page">
+        <div class="footer-content">
+            <p>&copy; 2023 Mon Site. Tous droits réservés.</p>
+            <nav role="navigation" aria-label="Navigation secondaire">
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                    <li><a href="contact.html">Contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
     <script src="assets/script/script.js"></script>
 </body>
 </html>
