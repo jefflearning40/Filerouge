@@ -47,3 +47,14 @@
             width: 50%;
         }
    
+.btn-close-modal {
+    background-color: #dc3545; /* Rouge */
+    color: white; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 20px; /* Coins arrondis */
+    padding: 5px 15px; /* Espacement interne */
+}
+
+.btn-close-modal:hover {
+    background-color: #c82333; /* Rouge plus foncé au survol */
+}
