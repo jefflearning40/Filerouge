@@ -1,0 +1,49 @@
+ /* variables couleurs */
+ @import url('variables.css');
+ /* effet de rotation pour le logo */
+ .logo {
+            transition: transform 1s;
+        }
+        .logo:hover {
+            transform: rotate(360deg);
+        }
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+
+     .jumbotron {
+            background-image: url('assets/images/bannerprojectenglish.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 2rem;
+            color: var(--footer-color-p);
+            min-height: 100px;
+            text-align: center;
+        }
+
+        .jumbotron h1 {
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre pour améliorer la visibilité */
+            font-size: 3rem; /* Augmente la taille de la police */
+        }
+        
+        
+        .form-container {
+            display: none;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid var(--container-border);
+            background-color: var(--container-bgcolor);
+            width: 50%;
+        }
+   
